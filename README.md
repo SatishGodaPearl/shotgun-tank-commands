@@ -170,6 +170,10 @@ Launches and initializes an application environment.
 
 Opens the folder where log files are being stored.
 
+### --debug
+
+Sometimes it can be useful to see what is going on under the hood. You can pass a --debug flag to the tank command which will enable verbose output and timings, sometimes making it easier to track down problems or understand why something isn't doing what you expected it to.
+
 # Some Example
 
 ### Show all tank commands for an asset named 'piano'
@@ -189,4 +193,5 @@ Opens the folder where log files are being stored.
 
 ### Or we can change our work directory and run tank like this
 > cd /mnt/projects/hero/assets/piano launch_maya
+
 > tank launch_maya
