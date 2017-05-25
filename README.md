@@ -169,3 +169,24 @@ Launches and initializes an application environment.
 ### open_log_folder
 
 Opens the folder where log files are being stored.
+
+# Some Example
+
+### Show all tank commands for an asset named 'piano'
+> tank Asset piano
+
+### We can also list all assets containing the phrase 'pi'
+> tank Asset pi
+
+### We can execute the built-in folder creation command for the piano
+> tank Asset piano folders
+
+### If the application launcher app is installed, we can launch maya and set the work area to the piano
+> tank Asset piano launch_maya
+
+### Alternatively, we can specify a path on disk instead of a Shotgun entity
+> tank /mnt/projects/hero/assets/piano launch_maya
+
+### Or we can change our work directory and run tank like this
+> cd /mnt/projects/hero/assets/piano launch_maya
+> tank launch_maya
