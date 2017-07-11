@@ -124,6 +124,28 @@ Adds a new engine to your configuration.
 
 Checks if there are any app or engine updates for the current configuration.
 
+Examples:
+---------
+
+Check everything:
+> tank updates
+
+Check the Shot environment:
+> tank updates Shot
+
+Check all maya apps in all environments:
+> tank updates ALL tk-maya
+
+Check all maya apps in the Shot environment:
+> tank updates Shot tk-maya
+
+Make sure the loader app is up to date everywhere:
+> tank updates ALL ALL tk-multi-loader
+
+Make sure the loader app is up to date in maya:
+> tank updates ALL tk-maya tk-multi-loader
+
+
 ## Developer Commands
 
 ### switch_app
